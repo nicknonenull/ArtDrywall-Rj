@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <script src="https://kit.fontawesome.com/02a86b00cc.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome aqui -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-... seu valor aqui" crossorigin="anonymous" />
+  <title>Seu Documento</title>
+  <style>
+    .scroll-image {
+      width: auto;
+      height: 100%;
+      margin-right: 5px;
+      object-fit: cover;
+      border-radius: 2px;
+    }
+    .image-container {
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      border: 2px solid #0b0c47;
+      border-radius: 10px;
+      padding: 5px;
+    }
+    .scroll-image {
+      width: 600px;
+      height: 200px;
+      margin-right: 10px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .welcome-text {
+      color: #0b0c47; 
+      font-size: 1.3em;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-image: url('https://media.gazetadopovo.com.br/2022/09/13131312/Shutterstock_1795778233-960x540.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    header, main, footer {
+      padding: 20px;
+      margin: 10px 0;
+      border: none;
+    }
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    button {
+      margin: 5px;
+      padding: 15px;
+      border: none;
+      cursor: pointer;
+      color: #200e36;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      width: 100%;
+    }
+    .whatsapp-button,
+    .telefone-button,
+    .instagram-button {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .whatsapp-button {
+      background: linear-gradient(to right, #25D366, #128C7E);
+    }
+    .telefone-button {
+      background: linear-gradient(to right, #ff8c00, #ff4e00);
+    }
+    .instagram-button {
+      background: linear-gradient(to right, #E4405F, #8A3AB9);
+    }
+    main h2, main p {
+      color: #0b0c47;
+    }
+    main h2 {
+      color: #0b0c47;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      font-size: 1.1em;
+    }
+    .image-container {
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      border: 2px solid #0b0c47;
+      border-radius: 10px;
+      padding: 5px;
+    }
+    .scroll-image {
+      width: 200px;
+      height: 200px;
+      margin-right: 10px;
+    }
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      display: none;
+    }
+    .overlay-content {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .close-button {
+      background: #ff4e00;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ArtÐrywall</h1>
+    <p class="welcome-text">Bem-vindo ao Nosso site!</p>
+  </header>
+  <main>
+    <h2>Divisórias Modernas: Transforme espaços com elegância e funcionalidade. Tetos Criativos: De iluminação embutida a designs personalizados, destacamos seus tetos. Residencial e Comercial: Adaptamos nossas soluções para atender às necessidades específicas de cada projeto.
+      <p>Rebaixamentos e Divisorias em Drywall • instalação de luminarias • Pinturas • Sancas • Plaquinhas • Decorações ( Ilhas, Flutuantes, cortineiros etc... )</p>
+    </h2> 
+    <div class="button-container">
+      <button class="whatsapp-button" id="whatsapp-main-button"><i class="fab fa-whatsapp"></i> Whatsapp</button>
+      <a href="tel:5521979639351"><button class="telefone-button"><i class="fas fa-phone fa-shake"></i> Telefone</button></a>
+      <a href="https://www.instagram.com/drywallfazart?igsh=YTIzOXZpaTUxa3dk"><button class="instagram-button"><i class="fa-brands fa-instagram fa-bounce"></i> Instagram</button></a>
+    </div>
+    <div class="image-container">
+      <img class="scroll-image" src="https://live.staticflickr.com/65535/53510831162_370bf73094_w.jpg" alt="Imagem 4">
+      <img class="scroll-image" src="https://live.staticflickr.com/65535/53512026039_8fa9543026_n.jpg" alt="Imagem 1">
+      <img class="scroll-image" src="https://live.staticflickr.com/65535/53510823397_503931af10_w.jpg" alt="Imagem 2">
+      <img class="scroll-image" src="https://live.staticflickr.com/65535/53511718256_4b420c9365_w.jpg" alt="Imagem 3">
+      <img class="scroll-image" src="https://i.im.ge/2024/03/02/82XJyS.1000392460.jpg" alt="Nova Imagem 1">
+      <img class="scroll-image" src="https://i.im.ge/2024/03/02/82osVq.1000392508.jpg" alt="Nova Imagem 2">
+      <img class="scroll-image" src="https://i.im.ge/2024/03/02/82o7lp.1000392506.jpg" alt="Nova Imagem 3">
+      <img class="scroll-image" src="https://i.im.ge/2024/03/02/82oPgx.1000392535.jpg" alt="Imagem 4">
+      <img class="scroll-image" src="https://i.im.ge/2024/03/02/82oR8X.1000392482.jpg" alt="Imagem 5">
+      <img class="scroll-image" src="https://i.im.ge/2024/03/02/82Ff6S.1000392478.jpg" alt="Imagem 6">
+      <img class="scroll-image" src="https://i.im.ge/2024/03/02/82FV2y.1000392487.jpg" alt="Imagem 7">
+      <img class="scroll-image" src="https://i.im.ge/2024/03/02/82o3Sz.1000392375.jpg" alt="Imagem 8">
+      <img class="scroll-image" src="https://i.im.ge/2024/03/02/82o0vW.1000392463.jpg" alt="Imagem 9">
+      <img class="scroll-image" src="https://i.im.ge/2024/03/02/82od24.1000392528.jpg" alt="Imagem 10">
+    </div>
+    <p>Arraste para ver nossas obras de Arte</p>
+  </main>
+  <footer>
+    <p>&copy; ArtDrywall Todos os direitos reservados.</p>
+  </footer>
+
+  <div class="overlay" id="overlay">
+    <div class="overlay-content">
+      <button class="whatsapp-button" onclick="window.location.href='https://wa.me/5521979639351'"><i class="fab fa-whatsapp"></i> Whatsapp 1</button>
+      <button class="whatsapp-button" onclick="window.location.href='https://wa.me/5521987654321'"><i class="fab fa-whatsapp"></i> Whatsapp 2</button>
+      <button class="close-button" onclick="closeOverlay()">Fechar</button>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const glide = new Glide('.image-container', {
+        type: 'carousel',
+        perView: 1,
+        focusAt: 'center',
+        gap: 10,
+        breakpoints: {
+          768: {
+            perView: 2,
+          },
+        },
+      }).mount();
+
+      const indicators = document.querySelectorAll('.slide-indicator');
+      glide.on('run', (move) => {
+        indicators.forEach((indicator, index) => {
+          indicator.classList.toggle('active', index === move.index);
+        });
+      });
+
+      setInterval(() => {
+        glide.go('>');
+      }, 3000); // Tempo em milissegundos para avançar para a próxima imagem automaticamente
+
+      const whatsappButton = document.getElementById('whatsapp-main-button');
+      const overlay = document.getElementById('overlay');
+      const closeButton = document.querySelector('.close-button');
+
+      whatsappButton.addEventListener('click', () => {
+        overlay.style.display = 'flex';
+      });
+
+      closeButton.addEventListener('click', () => {
+        overlay.style.display = 'none';
+      });
+    });
+
+    function closeOverlay() {
+      document.getElementById('overlay').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
